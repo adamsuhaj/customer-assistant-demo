@@ -1,0 +1,22 @@
+# Step 0 - Declare dependencies for the local assistant and rehearsal.
+# - Jupyter packages run the step-by-step notebook in a Python kernel.
+# - FastMCP provides the separate stdio tool server and client used by Step 3.
+# - The Step 9 order list and Step 11 no-ID service/public catalog reuse that
+#   same MCP dependency; those features require no additional package here.
+# - LiteLLM and python-dotenv provide the Step 4 provider gateway and settings.
+# - Pydantic supports schema contracts used by the MCP ecosystem.
+# - Pytest is available for local checks; the checked-in suite also runs with unittest.
+# - Streamlit adds the Step 8 local chat UI and its built-in AppTest UI checks.
+jupyterlab
+ipykernel
+ipywidgets
+# Step 3: keep the MCP protocol API used by the server and client repeatable.
+fastmcp==4.0.10
+jsonschema==4.26.0
+# Step 4: keep the tested model gateway and .env loader versions repeatable.
+litellm==1.102.1
+python-dotenv==1.2.3
+pydantic
+pytest
+# Step 8: pin the local UI version exercised by the Streamlit AppTest suite.
+streamlit==1.64.0
