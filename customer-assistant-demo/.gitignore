@@ -1,0 +1,17 @@
+# Step 0 - Keep only reproducible source and synthetic inputs in version control.
+# - Exclude populated .env files because they may contain provider or signing keys.
+# - Keep .env.example so a recipient can see every supported configuration name.
+# - Exclude virtual environments, Python/notebook caches, and generated SQLite reports.
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+data/local/
