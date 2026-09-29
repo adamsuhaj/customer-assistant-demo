@@ -1,4 +1,4 @@
-# Customer Assistant Interview Demo
+# Customer Assistant  Demo
 
 A local customer-assistant prototype built with Streamlit, LLM-selected MCP tools, signed user identity, grounded responses, a local A2A handoff, and an evaluation gate. The included customer, order, instrument, and service records are synthetic demonstration data.
 
