@@ -1,0 +1,10 @@
+customer-assistant-demo/.env
+customer-assistant-demo/.env.*
+!customer-assistant-demo/.env.example
+customer-assistant-demo/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.ipynb_checkpoints/
+customer-assistant-demo/data/local/
+customer-assistant-demo/output/
+customer-assistant-demo/tmp/

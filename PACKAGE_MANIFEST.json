@@ -1,0 +1,308 @@
+{
+  "package": "customer-assistant-interview",
+  "release": "v1.0.0",
+  "source_root": "customer-assistant-demo",
+  "launcher_mode": "portable adjacent project; no embedded install path",
+  "manifest_note": "Hashes cover every included file except this manifest itself.",
+  "excluded": [
+    ".git at every level",
+    "optional third-party robot artwork",
+    "populated .env and credentials",
+    "virtual environments and caches",
+    "generated databases, conversations and audit logs",
+    "temporary outputs",
+    "private presentation, memo and interview brief"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 293,
+      "sha256": "5d70b38d8a45585af8b22601dd3c8f222bb74683bafe8b0de535685706c56402"
+    },
+    {
+      "path": "customer-assistant-demo/.env.example",
+      "bytes": 636,
+      "sha256": "30d7eafa2982eace3fac6c388ccc4098401450c2319b11d60fec06fa22d16ccf"
+    },
+    {
+      "path": "customer-assistant-demo/.gitignore",
+      "bytes": 475,
+      "sha256": "eee69caaf456d06620e076b9a61646101cd02ebf363150de4e1aaae6e40fac3c"
+    },
+    {
+      "path": "customer-assistant-demo/.streamlit/config.toml",
+      "bytes": 528,
+      "sha256": "7a7decb1aee5956f2069c904c2f8d7ceab0ebd3e89ed1158535ecd4630a5893f"
+    },
+    {
+      "path": "customer-assistant-demo/app.py",
+      "bytes": 21357,
+      "sha256": "2ce94592c5602f9feb32e744b3c054c257e8a02af5fdfbf53c836c076ba66b88"
+    },
+    {
+      "path": "customer-assistant-demo/data/source/customers.csv",
+      "bytes": 231,
+      "sha256": "ff863f0b1ee309aebfa71eb3eb3d41814b8c9e7b60fa58f83c5ec40eb98099e1"
+    },
+    {
+      "path": "customer-assistant-demo/data/source/DATASET_README.md",
+      "bytes": 2481,
+      "sha256": "024e13dad877d3e41fa801d42e25ad86973a5146312b8e974f0d65782c3b82f5"
+    },
+    {
+      "path": "customer-assistant-demo/data/source/evaluation_cases.csv",
+      "bytes": 1070,
+      "sha256": "ac3ebf84dc32008dda787544ad71448cb2e2c88402ff1fc125a203a8e225ea83"
+    },
+    {
+      "path": "customer-assistant-demo/data/source/instruments.csv",
+      "bytes": 431,
+      "sha256": "62f369760b02a8dfc5837b0b8873438fb07d01e438af7f47138db3668098a49f"
+    },
+    {
+      "path": "customer-assistant-demo/data/source/orders.csv",
+      "bytes": 1849,
+      "sha256": "c7182fd3462496d079620ff42e38a273b03e9d6f3f24ad8f23cf08bb1ff1d611"
+    },
+    {
+      "path": "customer-assistant-demo/data/source/service_history.csv",
+      "bytes": 1025,
+      "sha256": "05c7eff824bdc81862f3f9334ae78a879979e35d2abaec44ec85a06d6c0c5b7f"
+    },
+    {
+      "path": "customer-assistant-demo/data/source/troubleshooting_articles.csv",
+      "bytes": 1853,
+      "sha256": "e3da0377708b1d9303b5405396f2acffe99bc8676edcd4339e5e028983edf95d"
+    },
+    {
+      "path": "customer-assistant-demo/docs/architecture_and_operating_model.md",
+      "bytes": 13750,
+      "sha256": "9fd2d38680455cb407ebc18f0019469220bdb080a3fcbc40b407258e9152c4a1"
+    },
+    {
+      "path": "customer-assistant-demo/docs/demo_rehearsal.md",
+      "bytes": 11409,
+      "sha256": "7ebd61eaaa992dc7f0af17890889309c673c1daee05464c3c5106d0d9e2d5ac1"
+    },
+    {
+      "path": "customer-assistant-demo/launcher/build.ps1",
+      "bytes": 1542,
+      "sha256": "989ef57d098492525dc060d9b7310c313fdfaac0448f9c20f20cad268d1b9dab"
+    },
+    {
+      "path": "customer-assistant-demo/launcher/Launcher.cs",
+      "bytes": 21088,
+      "sha256": "17c6e4a87b19be940b6317f3730d34d962255cb1dc484a4167ba715843cd264b"
+    },
+    {
+      "path": "customer-assistant-demo/launcher/verify-location.ps1",
+      "bytes": 2238,
+      "sha256": "dd94c2579a70bb7fa9b44900dee81b3130f6879377ee186a18bcccb021c2118e"
+    },
+    {
+      "path": "customer-assistant-demo/notebooks/01_customer_assistant_demo.ipynb",
+      "bytes": 19356,
+      "sha256": "3f36cb20cb43fa3afecefc81b967a8c9ce3751b3b0a424f26ad385abeb0c7c84"
+    },
+    {
+      "path": "customer-assistant-demo/README.md",
+      "bytes": 37289,
+      "sha256": "771ce5bae43bbd7c1bbcfa95e897bd7916a988c29e45d887881bdf65ad2acc75"
+    },
+    {
+      "path": "customer-assistant-demo/requirements.txt",
+      "bytes": 1060,
+      "sha256": "e770332f958b49fb143cc6cb511577d2b414c232a7798d53ed49ac0168655c7a"
+    },
+    {
+      "path": "customer-assistant-demo/src/customer_assistant/__init__.py",
+      "bytes": 404,
+      "sha256": "b6c32ebbbccd31ce38723a1a060e9bb2b4b5f339459ad48f2a0e5af882a14d96"
+    },
+    {
+      "path": "customer-assistant-demo/src/customer_assistant/audit.py",
+      "bytes": 24674,
+      "sha256": "a17c8e8c381ea3ebb572f61bcc9e40ffdd0ec67c00c1a490f058b0ef575ecb88"
+    },
+    {
+      "path": "customer-assistant-demo/src/customer_assistant/config.py",
+      "bytes": 5087,
+      "sha256": "7201cce67fbcebb52e3ab2e9082aabb0a3661374eb636835cdb2f028338502fe"
+    },
+    {
+      "path": "customer-assistant-demo/src/customer_assistant/conversation.py",
+      "bytes": 13651,
+      "sha256": "73256c22d523b41a1e5e30d504839551c82ef675ab53f7a169c89619e4cc2e52"
+    },
+    {
+      "path": "customer-assistant-demo/src/customer_assistant/crm_connector.py",
+      "bytes": 2351,
+      "sha256": "1dfecd477a218ffbbfc4b3ab81b8b9e2f328ce7e706a73369fe3913928c5c2cb"
+    },
+    {
+      "path": "customer-assistant-demo/src/customer_assistant/database.py",
+      "bytes": 19541,
+      "sha256": "41435bcf6d964893ab192780b06f05a9ecf52ad1436a05f11a29187d38ae2481"
+    },
+    {
+      "path": "customer-assistant-demo/src/customer_assistant/evaluation.py",
+      "bytes": 23407,
+      "sha256": "0dfb54491df537e1e08e23ce7ae3b15077d64f0da98cf5be4fbaa466ce7f4861"
+    },
+    {
+      "path": "customer-assistant-demo/src/customer_assistant/gateway.py",
+      "bytes": 19702,
+      "sha256": "47be9a076b47f7bf7681089a519a3407babf8c63af8a8f3b15d1eb180969e0e1"
+    },
+    {
+      "path": "customer-assistant-demo/src/customer_assistant/handoff.py",
+      "bytes": 14589,
+      "sha256": "06b656734f84d6a6d87d0cd94a4a7545988ce5ab817c58e529cc8cc2cb22573b"
+    },
+    {
+      "path": "customer-assistant-demo/src/customer_assistant/identity.py",
+      "bytes": 7561,
+      "sha256": "2eae57beeef3b4a396ccb4a00d1533f45b304e1ecc592ef1f6f3c71b9bf4672a"
+    },
+    {
+      "path": "customer-assistant-demo/src/customer_assistant/mcp_client.py",
+      "bytes": 16515,
+      "sha256": "978b5da17bb8b6071051f744b3c908e8d9f047ade2d7f4b05eae505fe0a113c7"
+    },
+    {
+      "path": "customer-assistant-demo/src/customer_assistant/mcp_server.py",
+      "bytes": 9535,
+      "sha256": "51400f53595dbe24fc0fb3ce20f6f42fc3c0f2cb5f9c713d9792738bd042b23d"
+    },
+    {
+      "path": "customer-assistant-demo/src/customer_assistant/offline_tool_selector.py",
+      "bytes": 8212,
+      "sha256": "041cda1f4fea4661d1c169970ea1e524b2babaa4cc3e64291721352d3460e8dc"
+    },
+    {
+      "path": "customer-assistant-demo/src/customer_assistant/orchestrator.py",
+      "bytes": 48107,
+      "sha256": "23b79de553a3ebc610e9e443ff361d3ef3a1bda1c7b6aee41add654c5040a6c3"
+    },
+    {
+      "path": "customer-assistant-demo/src/customer_assistant/policy.py",
+      "bytes": 9917,
+      "sha256": "72a5f02aa744ee748f8fa0cc1e187cf984c926bbfbe8c3d8c8153a735fee18aa"
+    },
+    {
+      "path": "customer-assistant-demo/src/customer_assistant/risk.py",
+      "bytes": 6172,
+      "sha256": "30acb466ebb1197033d275542506cf3e8cb0ab26df80daf53d7f2ba7325c7dbc"
+    },
+    {
+      "path": "customer-assistant-demo/tests/test_audit.py",
+      "bytes": 16183,
+      "sha256": "2d36009abe7d4ab95b5523816359c5a9df654adf691ed9be1a90e7d88562c7b8"
+    },
+    {
+      "path": "customer-assistant-demo/tests/test_config.py",
+      "bytes": 4527,
+      "sha256": "8ff2c865c1828fbb0614b59e6a3b965b354635fd8ba2778fc67bdfe0dd394cd5"
+    },
+    {
+      "path": "customer-assistant-demo/tests/test_conversation.py",
+      "bytes": 10282,
+      "sha256": "a1ee9689445976214af894aa2c523e8a419a94a171a91d224625679ca7a5a7cd"
+    },
+    {
+      "path": "customer-assistant-demo/tests/test_customer_relationship_flow.py",
+      "bytes": 15227,
+      "sha256": "cc3871b7544af02d9e9e3d7f7b53862903e51e2bf01d0eac5841fcddc3f8c1e6"
+    },
+    {
+      "path": "customer-assistant-demo/tests/test_database.py",
+      "bytes": 8816,
+      "sha256": "d046dd23a809bbdd20c6a00d7fea72dd8552aa40e40ab87621757282c3d9551f"
+    },
+    {
+      "path": "customer-assistant-demo/tests/test_evaluation.py",
+      "bytes": 9205,
+      "sha256": "bc7d9cf455bfd552be16e87679f600cdd0bf6823fcc19f789569560fd8d65ca9"
+    },
+    {
+      "path": "customer-assistant-demo/tests/test_gateway.py",
+      "bytes": 5385,
+      "sha256": "105cabb651bf994c4e6666d9e0dbbafa7711c10584637d6054adc9868bf029b8"
+    },
+    {
+      "path": "customer-assistant-demo/tests/test_gateway_tool_selection.py",
+      "bytes": 14241,
+      "sha256": "947f99c4716df3e5e797975c96c868853050fc12209c24fb25256ff30c4e6f37"
+    },
+    {
+      "path": "customer-assistant-demo/tests/test_handoff.py",
+      "bytes": 8642,
+      "sha256": "66a49606a9cf4af4526246800c9b13eff0f40f4f6be16b8021566d29d12df392"
+    },
+    {
+      "path": "customer-assistant-demo/tests/test_identity_policy.py",
+      "bytes": 11597,
+      "sha256": "64c1c68b721698f01c180787a7db4ddb74803990fd0d91535b03386e723cf583"
+    },
+    {
+      "path": "customer-assistant-demo/tests/test_llm_tool_flow.py",
+      "bytes": 28046,
+      "sha256": "bd3ca5e45def0ced398cdc0acc0b40dbce569907d034bd3e4bbee5df50550e4e"
+    },
+    {
+      "path": "customer-assistant-demo/tests/test_mcp_catalog.py",
+      "bytes": 11188,
+      "sha256": "48ae82d7ba813bbfd6b5b120e7574b4ba087cd5d6a3a72e4c456f3a97dea1116"
+    },
+    {
+      "path": "customer-assistant-demo/tests/test_mcp_tools.py",
+      "bytes": 14453,
+      "sha256": "a3779083b15eb65fd10fc8dab2c16dd3fd44e0a3ccbafc466e763518f7897d9c"
+    },
+    {
+      "path": "customer-assistant-demo/tests/test_orchestrator.py",
+      "bytes": 20108,
+      "sha256": "dcfde2adef6853e1dc2f3dd2ae045be9f9d61e7b122152871b8a236e17f5c2e3"
+    },
+    {
+      "path": "customer-assistant-demo/tests/test_order_list_flow.py",
+      "bytes": 18023,
+      "sha256": "92a4fef06b1c78cd95f5bfe63bf31a657da3a088eaff653ce42ee0b952351696"
+    },
+    {
+      "path": "customer-assistant-demo/tests/test_risk.py",
+      "bytes": 4060,
+      "sha256": "6de37743f9df3f2b2d81acb50e7c8aa23b1faf12791840781ab1517a035ca511"
+    },
+    {
+      "path": "customer-assistant-demo/tests/test_streamlit_app.py",
+      "bytes": 32422,
+      "sha256": "a6525583f89605aaaf8017e68e5e4f89eb1133dced15a71ddaee71ad98f8e0c3"
+    },
+    {
+      "path": "customer-assistant-demo/tests/test_streamlit_refinement.py",
+      "bytes": 6901,
+      "sha256": "ae1f8eaf4ad6fe42058eac980084510c03972e528a455c00aec981f356c4a25a"
+    },
+    {
+      "path": "customer-assistant-demo/tests/test_trace_retention.py",
+      "bytes": 6115,
+      "sha256": "f54eeb102013bebf70c045237d17a9ceb8bfe16b2e900cb9849974e26bdca43a"
+    },
+    {
+      "path": "Launch Customer Assistant.exe",
+      "bytes": 20480,
+      "sha256": "9497ab9835577de989670cbcedb6679bb94017be1d814db2291983fc0088d86c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2404,
+      "sha256": "d2b505b9778f9da742510374aea607e772ef7332c1842643f0a558577cc9c3a2"
+    },
+    {
+      "path": "RUN_ME.md",
+      "bytes": 3624,
+      "sha256": "d490ed5bb4159b79a5656fe59c9b144aeb97507365f186a5374be5185fb15da0"
+    }
+  ]
+}
