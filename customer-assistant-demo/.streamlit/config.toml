@@ -1,0 +1,15 @@
+# Step 10 - Give the local chat a consistent dark grey and blue theme.
+# - Use Streamlit's supported theme settings for stable widget colors.
+# - Keep the main canvas and sidebar dark grey, with a blue focus accent.
+# - app.py adds small layout and heading refinements on top of this base.
+[theme]
+base = "dark"
+primaryColor = "#0072B8"
+backgroundColor = "#171A20"
+secondaryBackgroundColor = "#242A33"
+textColor = "#F3F6FA"
+
+[theme.sidebar]
+backgroundColor = "#222730"
+secondaryBackgroundColor = "#2E3540"
+textColor = "#F3F6FA"
