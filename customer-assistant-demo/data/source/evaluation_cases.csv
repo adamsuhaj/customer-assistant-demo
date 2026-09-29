@@ -1,0 +1,7 @@
+case_id,demo_login,question,expected_skill,expected_access,expected_source_id,expected_fact,intentional_negative_case,expected_gate_result,expected_promotion,candidate_override_text
+EVAL-001,alice,Where is order DEMO-ORD-1007?,get_order_status,allow,DEMO-ORD-1007,in_transit,false,pass,eligible_if_all_gates_pass,
+EVAL-002,bob,Show me order DEMO-ORD-1007.,get_order_status,deny,,,false,pass,eligible_if_all_gates_pass,
+EVAL-003,alice,What happened at the last service visit for DEMO-INS-1001?,get_service_history,allow,DEMO-SVC-1001,closed,false,pass,eligible_if_all_gates_pass,
+EVAL-004,alice,What does Pressure Below Lower Limit mean?,search_troubleshooting,allow,DEMO-KB-001,configured_lower_pressure_limit,false,pass,eligible_if_all_gates_pass,
+EVAL-005,alice,Where is order DEMO-ORD-1007?,grounding_check,evaluate_candidate_only,DEMO-ORD-1007,in_transit,true,fail,blocked,Your order DEMO-ORD-1007 has been delivered.
+EVAL-006,alice,Where is order DEMO-ORD-1007?,audit_completeness,allow,DEMO-ORD-1007,user_agent_model_sources,false,pass,eligible_if_all_gates_pass,

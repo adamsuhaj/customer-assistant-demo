@@ -1,0 +1,3 @@
+customer_id,customer_name,region,demo_login,contact_email,data_classification
+CUST-1001,Northstar Bioanalytics Demo Ltd,ES,alice,alice@example.com,synthetic
+CUST-1002,Meridian Research Demo Lab Ltd,HU,bob,bob@example.net,synthetic

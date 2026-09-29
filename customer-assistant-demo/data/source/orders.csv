@@ -1,0 +1,12 @@
+order_id,customer_id,instrument_id,created_on,item_description,demo_sku,order_status,shipped_on,estimated_delivery,tracking_reference,record_source
+DEMO-ORD-1007,CUST-1001,DEMO-INS-1001,2026-09-22,Demo LC maintenance consumables pack,DEMO-SKU-LC-1007,in_transit,2026-09-25,2026-09-30,DEMO-TRACK-1007,synthetic_demo
+DEMO-ORD-1002,CUST-1001,DEMO-INS-1001,2026-08-08,Demo solvent inlet filter pack,DEMO-SKU-LC-1002,delivered,2026-08-10,2026-08-12,DEMO-TRACK-1002,synthetic_demo
+DEMO-ORD-2001,CUST-1002,DEMO-INS-2001,2026-09-24,Demo pump service consumables pack,DEMO-SKU-LC-2001,processing,2026-09-26,2026-10-02,DEMO-TRACK-2001,synthetic_demo
+DEMO-ORD-1008,CUST-1001,DEMO-INS-1001,2026-09-26,Demo autosampler vial kit,DEMO-SKU-LC-1008,processing,,2026-10-05,,synthetic_demo
+DEMO-ORD-1006,CUST-1001,DEMO-INS-1001,2026-09-19,Demo column inlet frit kit,DEMO-SKU-LC-1006,in_transit,2026-09-23,2026-09-29,DEMO-TRACK-1006,synthetic_demo
+DEMO-ORD-1004,CUST-1001,DEMO-INS-1001,2026-08-24,Demo pump seal wash kit,DEMO-SKU-LC-1004,delivered,2026-08-27,2026-08-30,DEMO-TRACK-1004,synthetic_demo
+DEMO-ORD-2005,CUST-1002,DEMO-INS-2001,2026-09-27,Demo pump check valve kit,DEMO-SKU-LC-2005,processing,,2026-10-06,,synthetic_demo
+DEMO-ORD-2004,CUST-1002,DEMO-INS-2001,2026-09-21,Demo degasser tubing kit,DEMO-SKU-LC-2004,in_transit,2026-09-24,2026-09-30,DEMO-TRACK-2004,synthetic_demo
+DEMO-ORD-2003,CUST-1002,DEMO-INS-2001,2026-09-10,Demo solvent bottle cap kit,DEMO-SKU-LC-2003,delivered,2026-09-12,2026-09-16,DEMO-TRACK-2003,synthetic_demo
+DEMO-ORD-2002,CUST-1002,DEMO-INS-2001,2026-08-15,Demo pump inlet filter pack,DEMO-SKU-LC-2002,delivered,2026-08-18,2026-08-21,DEMO-TRACK-2002,synthetic_demo
+DEMO-ORD-1009,CUST-1001,DEMO-INS-1001,2026-09-21,Demo replacement pump check valve kit,DEMO-SKU-LC-1009,in_transit,2026-09-26,2026-10-02,DEMO-TRACK-1009,synthetic_demo
